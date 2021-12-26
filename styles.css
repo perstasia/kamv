@@ -1,0 +1,161 @@
+@charset "utf-8";
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 12px;
+	}
+
+h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	line-height:normal;
+	margin-top: 0px;
+	font-variant: normal;
+	width: 70px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 3px;
+	color: #333;
+}
+
+h2 {
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+h3 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	line-height: normal;
+	margin: 0px;
+}
+
+p {
+	color: #000;
+	background-color: #FFF;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	text-decoration: none;
+}
+ul {
+	font-family: Arial, Helvetica, sans-serif;
+	list-style-type: none;
+	font-size: 12px;
+	position: relative;
+	margin-top: 2px;
+	margin-bottom: 15px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+span {
+	color: #F00;
+}
+
+
+a:hover {
+	color: #F00;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+	margin-bottom:30px;
+	margin-left:-20px;
+}
+#global {
+	/*width: 930px;*/
+	position: relative;
+	height: 490px;
+	margin-left: 70px;
+}
+
+#gauche {
+	float:left;
+	width:150px;
+}
+
+#menu {
+	position:relative;
+	margin: 0px;
+	padding: 0px;
+}
+
+#milieu {
+	overflow:hidden;
+	padding-left: 15px;
+}
+
+#droite {
+	float:right;
+	width:137px;
+	margin-right:130px;
+	padding:5px;
+	display:none;
+}
+
+#chrono {
+	margin-top: 150px;
+}
+
+img {
+	margin-top: 10px;
+}
+
+.texte {
+	font-size:12px;
+	/*text-align: justify;*/
+	line-height:normal;
+	width: 575px;
+	overflow:auto;
+	height: 315px;
+	
+}
+
+.legende {
+	font-size:12px;
+	color: #F03;
+}
+.schemas {
+	margin-bottom: 40px;
+}
+.entretiens {
+	/*text-align: justify;*/
+	width: 575px;
+	background-attachment: scroll;
+	height: 190px;
+	overflow: auto;
+	padding-right: 10px;
+
+}
+.intro {
+	/*text-align: justify;*/
+	width: 575px;
+	background-attachment: scroll;
+	height: auto;
+	overflow: auto;
+	padding-right: 10px;
+}
+
+.bio {
+	/*text-align: justify;*/
+	width: 575px;
+	background-attachment: scroll;
+	height: auto;
+	overflow: auto;
+}
